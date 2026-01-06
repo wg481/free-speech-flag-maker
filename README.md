@@ -22,5 +22,11 @@ Here's our example output:
 
 ![alt text](https://github.com/wg481/free-speech-flag-maker/blob/main/example%20output.png "Sample Free Speech Flag.")
 
+Bar 1: ```#020fff```<br>
+Bar 2: ```#1a0abc```<br>
+Bar 3: ```#ad11ff```<br>
+Bar 4: ```#dd0a0a```<br>
+Bar 5: ```#9eeeff```<br>
+
 ## Notes
 Images are hardcoded at 1920x1080, and self-subdivide. Maybe don't try to make a flag out of 5760 bytes of code...?

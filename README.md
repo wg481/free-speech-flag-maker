@@ -15,7 +15,7 @@ For example: <br>
 Now, install the dependency and run the script.
 ```
 pip install pillow
-python3 script.py input.txt output.png
+python3 encoder.py input.txt output.png
 ```
 
 Here's our example output:
@@ -30,3 +30,12 @@ Bar 5: ```#9eeeff```<br>
 
 ## Notes
 Images are hardcoded at 1920x1080, and self-subdivide. Maybe don't try to make a flag out of 5760 bytes of code...?
+
+## Decoder
+The decoder script can take a Free Speech flag as an input and output the key within it. It does this by reading the top row of pixels and looking for color changes in X, then splits them into an array with a width of 16 hex pairs separated by spaces.
+
+Decoder Usage:
+```
+decoder.py input.png output.txt --leftovers=xxxx
+```
+```--leftovers=xxxx``` is an optional argument that allows you to put the one or two remaining bits traditionally appeneded in the corner into the output.

@@ -36,6 +36,6 @@ The decoder script can take a Free Speech flag as an input and output the key wi
 
 Decoder Usage:
 ```
-decoder.py input.png output.txt --leftovers=xxxx
+decoder.py input.png output.txt [--leftovers=xx | xxxx]
 ```
-```--leftovers=xxxx``` is an optional argument that allows you to put the one or two remaining bits traditionally appeneded in the corner into the output.
+```--leftovers=xx | xxxx``` is an optional argument that allows you to put the one or two remaining bytes traditionally appeneded in the corner into the output. i.e. ```---leftovers=2abb``` will append ```2a bb``` to the end of ```output.txt```.

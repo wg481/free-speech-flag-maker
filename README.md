@@ -17,3 +17,7 @@ Now, install the dependency and run the script.
 pip install pillow
 python3 script.py input.txt output.png
 ```
+
+Here's our example output:
+
+![alt text](https://github.com/wg481/free-speech-flag-maker/blob/main/example%20output.png "Sample Free Speech Flag.")

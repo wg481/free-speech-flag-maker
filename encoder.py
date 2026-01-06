@@ -44,7 +44,8 @@ def main(input_file, output_file):
 
 if __name__ == "__main__":
 	if len(sys.argv) != 3:
-		print("Usage: python script.py input.txt output.png")
+		print("Usage: python encoder.py input.txt output.png")
 		sys.exit(1)
 
 	main(sys.argv[1], sys.argv[2])
+

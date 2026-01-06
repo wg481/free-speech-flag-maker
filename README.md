@@ -2,7 +2,7 @@
 
 A Python script that turns your given hexedecimal string into a Free Speech Flag.
 
-A free speech flag uses three hex bytes of a given input to represent a color as a hex color (#ffffff).
+A free speech flag uses three hex bytes of a given input to represent a those three bytes as a hex color (#ffffff).
 This will automatically convert your hex bytes string into a flag. The bytes that can't be made into a
 color (always one or two bytes) will be printed to the console.
 
